@@ -1,0 +1,7 @@
+dash-bootstrap-components
+dash==1.16.2
+pandas
+google-api-python-client
+matplotlib
+oauth2client
+python-dotenv
