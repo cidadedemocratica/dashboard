@@ -11,6 +11,6 @@ services:
       - analysisdata:/tmp/airflow/
     ports:
       - "8050:8050"
-    entrypoint: "tail -f /dev/null"
+    entrypoint: "python server.py & && tail -f /dev/null"
 volumes:
   analysisdata:
